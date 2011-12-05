@@ -1,8 +1,9 @@
-var TODAY_LABEL = "S/Today";
-var OVERDUE_LABEL = "S/Overdue";
+var PAGE_SIZE = 100;
+var TODAY_LABEL = "C/Today";
+var OVERDUE_LABEL = "C/Overdue";
 
 function setup() {
-  // Create the labels well need
+  // Create the labels we’ll need
   GmailApp.createLabel(OVERDUE_LABEL);
   GmailApp.createLabel(TODAY_LABEL);
 }
